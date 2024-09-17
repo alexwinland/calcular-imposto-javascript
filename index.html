@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcular Imposto</title>
+  </head>
+  <body>
+    <script>
+      // Função para calcular o imposto
+      function calcularImposto() {
+        // Solicita ao usuário para inserir o salário
+        let entradaSalario = prompt("Digite o valor do salário:");
+        if (entradaSalario === null || entradaSalario.trim() === "") {
+          alert(
+            "Entrada inválida para o salário. Certifique-se de inserir um número válido."
+          );
+          return; // Encerra a função se a entrada for inválida
+        }
+
+        // Verifica e converte a entrada para float
+        let valorSalario = parseFloat(entradaSalario);
+        if (isNaN(valorSalario)) {
+          alert(
+            "Entrada inválida para o salário. Certifique-se de inserir um número válido."
+          );
+          return; // Encerra a função se a entrada for inválida
+        }
+
+        // Solicita ao usuário para inserir o valor dos benefícios
+        let entradaBeneficios = prompt("Digite o valor dos benefícios:");
+        if (entradaBeneficios === null || entradaBeneficios.trim() === "") {
+          alert(
+            "Entrada inválida para os benefícios. Certifique-se de inserir um número válido."
+          );
+          return; // Encerra a função se a entrada for inválida
+        }
+
+        // Verifica e converte a entrada para float
+        let valorBeneficios = parseFloat(entradaBeneficios);
+        if (isNaN(valorBeneficios)) {
+          alert(
+            "Entrada inválida para os benefícios. Certifique-se de inserir um número válido."
+          );
+          return; // Encerra a função se a entrada for inválida
+        }
+
+        // Calcula o valor do imposto com base no salário
+        let valorImposto;
+        if (valorSalario >= 0 && valorSalario <= 1100) {
+          valorImposto = 0.05 * valorSalario;
+        } else if (valorSalario >= 1101 && valorSalario <= 2500) {
+          valorImposto = 0.1 * valorSalario;
+        } else {
+          valorImposto = 0.15 * valorSalario;
+        }
+
+        // Calcula o valor final após o imposto e adiciona os benefícios
+        let saida = valorSalario - valorImposto + valorBeneficios;
+
+        // Exibe o resultado formatado com 2 casas decimais
+        alert(
+          `O valor final após impostos e benefícios é: ${saida.toFixed(2)}`
+        );
+      }
+
+      // Executa a função para calcular o imposto
+      calcularImposto();
+    </script>
+  </body>
+</html>
