@@ -1,51 +1,44 @@
-# Calculador de Impostos em JavaScript 🧮💵
+# Calculador de Impostos em JavaScript para Node.js 🧮💰
 
-Olá, pessoal! 👋 Se você sempre quis saber como calcular o imposto de forma fácil e rápida, este projeto é para você. Aqui está um simples (mas poderoso!) calculador de impostos feito com JavaScript. Vamos explorar o que ele faz e como você pode usá-lo para deixar suas finanças um pouco mais claras.
+Olá, pessoal! 👋 Se você sempre quis saber quanto realmente vai levar pra casa depois dos impostos e benefícios, este código em JavaScript vai te ajudar! Escrito para Node.js, ele faz todo o trabalho pesado para você. Vamos conferir como funciona essa belezura?
 
 ## O Que Este Código Faz?
 
-Este código é como um superpoder para suas finanças pessoais! Ele calcula o valor final que você vai receber após descontar impostos e adicionar benefícios. Tudo isso direto no seu navegador. 🚀
+Este código é como um assistente pessoal digital que calcula o quanto você vai receber após o imposto e adicionar seus benefícios. E tudo isso na linha de comando! 🚀
 
-### Passo a Passo da Magia:
+### O Que Acontece Passo a Passo:
 
-1. **Peça Seu Salário**:
-   - O programa começa pedindo o valor do seu salário. Nada de planilhas complicadas aqui!
+1. **Solicita o Salário**:
+   - O programa começa pedindo o valor do seu salário. É só digitar e pressionar Enter!
 
-2. **Peça Seus Benefícios**:
-   - Em seguida, ele pergunta sobre os benefícios que você recebe. Pode ser um vale-alimentação, bônus ou qualquer outra coisa legal que você ganhe.
+2. **Pede os Benefícios**:
+   - Em seguida, ele pergunta pelo valor dos benefícios que você recebe. Pode ser um bônus, vale-alimentação ou qualquer outra coisa legal.
 
-3. **Calcule o Imposto**:
-   - O código calcula o imposto com base em faixas salariais:
+3. **Calcula o Imposto**:
+   - O código calcula o imposto com base nas seguintes faixas salariais:
      - **0 a 1100**: Imposto de 5%.
      - **1101 a 2500**: Imposto de 10%.
      - **Acima de 2500**: Imposto de 15%.
-   - Simples, direto e eficiente!
+   - Assim, você não precisa se preocupar com cálculos complicados!
 
-4. **Calcule o Valor Final**:
-   - Depois de calcular o imposto, ele ajusta o valor final com base nos seus benefícios e mostra o resultado.
+4. **Calcula o Valor Final**:
+   - Depois de calcular o imposto, ele ajusta o valor final com base nos seus benefícios e exibe o resultado.
 
-5. **Exiba o Resultado**:
-   - O valor final é exibido com duas casas decimais. Porque você merece precisão, mesmo quando o assunto é dinheiro! 💰
+5. **Exibe o Resultado**:
+   - O resultado é mostrado com duas casas decimais, porque precisão é importante quando se trata de dinheiro! 💵
 
 ## Como Usar
 
-### Passo 1: Copie o Código
+### Passo 1: Prepare Seu Ambiente
 
-Copie o código fornecido e cole-o em um arquivo HTML. Salve como `index.html` ou qualquer nome que você preferir.
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado no seu computador. Se ainda não tiver, faça o download e instale-o.
 
-### Passo 2: Abra no Navegador
+### Passo 2: Copie o Código
 
-Abra o arquivo HTML no seu navegador. Você verá um popup pedindo para inserir o salário e depois os benefícios. Simples assim!
+Copie o código fornecido e cole-o em um arquivo chamado `calcular_imposto.js` ou qualquer nome que você preferir.
 
-### Passo 3: Veja o Resultado
+### Passo 3: Execute o Código
 
-Depois de inserir os valores, um alerta aparecerá com o valor final formatado. A mágica acontece na tela! ✨
-
-## Exemplo de Uso
-
-Ao rodar o código e inserir os valores, você pode ver algo assim:
-
-```plaintext
-Digite o valor do salário: 2000
-Digite o valor dos benefícios: 300
-O valor final após impostos e benefícios é: 1900.00
+Abra o terminal ou prompt de comando, navegue até o diretório onde você salvou o arquivo e execute o código com o comando:
+```bash
+node calcular_imposto.js
