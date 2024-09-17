@@ -31,4 +31,21 @@ Este código é como um superpoder para suas finanças pessoais! Ele calcula o v
 
 ### Passo 1: Copie o Código
 
-Copie o código fornecido e cole-o em um arquivo HTML. Salve como `index.htm
+Copie o código fornecido e cole-o em um arquivo HTML. Salve como `index.html` ou qualquer nome que você preferir.
+
+### Passo 2: Abra no Navegador
+
+Abra o arquivo HTML no seu navegador. Você verá um popup pedindo para inserir o salário e depois os benefícios. Simples assim!
+
+### Passo 3: Veja o Resultado
+
+Depois de inserir os valores, um alerta aparecerá com o valor final formatado. A mágica acontece na tela! ✨
+
+## Exemplo de Uso
+
+Ao rodar o código e inserir os valores, você pode ver algo assim:
+
+```plaintext
+Digite o valor do salário: 2000
+Digite o valor dos benefícios: 300
+O valor final após impostos e benefícios é: 1900.00
