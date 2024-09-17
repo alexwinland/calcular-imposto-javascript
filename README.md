@@ -4,7 +4,7 @@ Olá, pessoal! 👋 Se você sempre quis saber quanto realmente vai levar pra ca
 
 ## O Que Este Código Faz?
 
-Este código é como um assistente pessoal digital que calcula o quanto você vai receber após o imposto e adicionar seus benefícios. E tudo isso na linha de comando! 🚀
+Este código JavaScript é como um assistente pessoal digital que calcula o quanto você vai receber após o imposto e adicionar seus benefícios. 🚀
 
 ### O Que Acontece Passo a Passo:
 
